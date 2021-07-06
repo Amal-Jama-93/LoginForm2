@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    border-color: rgb(54, 14, 115);
+
+}
+
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+
+.login-txt {
+    font-weight: 800 !important;
+    font-size: 20px !important;
+}
+
+.MuiInputBase-input {
+    border-radius: 20px !important;
+}
+
+.MuiTypography-root {
+    margin-bottom: 30px !important ;
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.form-control input{
+    height: 10px;
+    width: 300px;
+} 
+
+.remember-forgot {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-content: space-between;
+    margin-left: 5px;
+}
+
+.submit-btn LoginButton{
+    color: #000;
+    height: 20px;
+}
+
+.check label {
+    font-size: 13px;
+    color: gray;
+    margin-left: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+font-weight: 600;
+margin-right: 5px;
+}
+
+
+.MuiButton-containedPrimary {
+    background-color: rgb(121, 44, 216) !important;
+}
+
+
+.MuiButton-root {
+    border-radius: 0 !important;
+}
